@@ -24,10 +24,10 @@ module.exports.getAll = async function(req, res){
 //create a new product
 module.exports.create = async function(req, res){
     try{
-        //check if name and quantity are given in request
-        if(req.query.name && req.query.quantity){
+        //check if name and quantity are given in request body
+        if(req.body.name && req.body.quantity){
             //create a new product with the given name and quantity in database
-            let product = await Products.create(req.query);
+            let product = await Products.create(req.body);
 
             //return the product in json format
             return res.status(200).json({
