@@ -4,7 +4,7 @@
   "description": "An api for managing ecommerce product inventory",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "18.16.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
