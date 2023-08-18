@@ -6,7 +6,7 @@ To install EcommerceAPI, please follow these steps:
 
 Clone this repository using the following command:
 ```
-$ git clone https://github.com/Pankaj3112/EcommerceAPI
+$ git clone https://github.com/Pankaj3112/EcommerceAPI.git
 ```
 Install the required dependencies using the following command:
 ```
